@@ -8,3 +8,25 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Dataset files and directories
+*.zip
+pizza_steak/
+
+# Model files
+*.h5
+*.keras
+*.hdf5
+*.pkl
+*.pickle
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.json
+*.parquet
+*.xlsx
+data/
+datasets/

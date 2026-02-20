@@ -10,5 +10,6 @@ dependencies = [
     "pandas>=3.0.0",
     "pydot>=4.0.1",
     "scikit-learn>=1.8.0",
+    "tensorflow-datasets>=4.9.9",
     "tensorflow-macos>=2.16.2",
 ]

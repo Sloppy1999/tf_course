@@ -30,3 +30,6 @@ pizza_steak/
 *.xlsx
 data/
 datasets/
+*.tflite
+*.png
+quantized_models_*/

@@ -2145,6 +2145,19 @@ wheels = [
 ]
 
 [[package]]
+name = "tensorflow-hub"
+version = "0.16.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "protobuf" },
+    { name = "tf-keras" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e5/50/00dba77925bf2a0a1e45d7bcf8a69a1d2534fb4bb277d9010bd148d2235e/tensorflow_hub-0.16.1-py2.py3-none-any.whl", hash = "sha256:e10c184b3d08daeafada11ffea2dd46781725b6bef01fad1f74d6634ad05311f", size = 30771, upload-time = "2024-01-30T14:49:07.005Z" },
+]
+
+[[package]]
 name = "tensorflow-metadata"
 version = "1.17.3"
 source = { registry = "https://pypi.org/simple" }
@@ -2193,6 +2206,7 @@ dependencies = [
     { name = "scikit-learn" },
     { name = "tensorflow", extra = ["and-cuda"] },
     { name = "tensorflow-datasets" },
+    { name = "tensorflow-hub" },
 ]
 
 [package.metadata]
@@ -2205,6 +2219,19 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "tensorflow", extras = ["and-cuda"], specifier = ">=2.20.0" },
     { name = "tensorflow-datasets", specifier = ">=4.9.9" },
+    { name = "tensorflow-hub", specifier = ">=0.16.1" },
+]
+
+[[package]]
+name = "tf-keras"
+version = "2.20.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "tensorflow" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/42/38/6060f6c7472439bb3890b9094d69d31d9f8d5da123b16c738773e70fff91/tf_keras-2.20.1.tar.gz", hash = "sha256:884be5938fb0b2b53b1583c1ae2b660ef87215377c29b5b6a77fd221b472aeaf", size = 1254487, upload-time = "2025-09-04T21:23:41.81Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/85/6b/d9a8202bfe5c9e3b078cf550bafab962aa9d6b1a1f1180f0065399d4c9b2/tf_keras-2.20.1-py3-none-any.whl", hash = "sha256:3f0e0a34d9a4c8758f24fdc1053e6e335f16ab5534c7d34f1899b8924779760c", size = 1694335, upload-time = "2025-09-04T21:23:40.153Z" },
 ]
 
 [[package]]

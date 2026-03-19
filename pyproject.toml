@@ -12,5 +12,6 @@ dependencies = [
     "python-lsp-server>=1.14.0",
     "scikit-learn>=1.8.0",
     "tensorflow-datasets>=4.9.9",
+    "tensorflow-hub>=0.16.1",
     "tensorflow[and-cuda]>=2.20.0",
 ]

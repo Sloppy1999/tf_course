@@ -9,9 +9,22 @@ wheels/
 # Virtual environments
 .venv
 
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # Dataset files and directories
 *.zip
 pizza_steak/
+10_food_classes_10_percent/
+10_food_classes_all_data/
 
 # Model files
 *.h5
@@ -19,6 +32,12 @@ pizza_steak/
 *.hdf5
 *.pkl
 *.pickle
+*.pb
+*.ckpt
+*.index
+saved_model/
+cached_hub_model/
+tensorflow_hub/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
@@ -32,4 +51,9 @@ data/
 datasets/
 *.tflite
 *.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
 quantized_models_*/
